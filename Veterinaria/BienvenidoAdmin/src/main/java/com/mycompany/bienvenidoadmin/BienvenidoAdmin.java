@@ -36,6 +36,7 @@ public class BienvenidoAdmin extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMaximumSize(new java.awt.Dimension(800, 500));
         setMinimumSize(new java.awt.Dimension(800, 500));
+        setPreferredSize(new java.awt.Dimension(800, 500));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         Titulo.setFont(new java.awt.Font("Days", 0, 40)); // NOI18N
@@ -47,7 +48,7 @@ public class BienvenidoAdmin extends javax.swing.JFrame {
         getContentPane().add(Text, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 80, -1, -1));
 
         Fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/bienvenidoadmin/8.jpg"))); // NOI18N
-        getContentPane().add(Fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -40, 800, 570));
+        getContentPane().add(Fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -30, 800, 570));
 
         jButton3.setText("bajar");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -55,7 +56,7 @@ public class BienvenidoAdmin extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 380, 270, 70));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 410, 270, 70));
 
         jButton2.setText("Modificar");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -63,7 +64,7 @@ public class BienvenidoAdmin extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 290, 270, 70));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, 270, 70));
 
         jButton1.setText("registar usuario");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -71,7 +72,7 @@ public class BienvenidoAdmin extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 210, 270, 60));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 220, 270, 60));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
